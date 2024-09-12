@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -30,13 +31,15 @@ public class HelloApplication extends Application {
         TextField textField3 = new TextField();
         TextField textField4 = new TextField();
         TextField textField5 = new TextField();
-        textField1.setPrefWidth(200);
-        textField2.setPrefWidth(200);
-        textField3.setPrefWidth(200);
-        textField4.setPrefWidth(200);
-        textField5.setPrefWidth(200);
+        textField1.setPrefWidth(150);
+        textField2.setPrefWidth(150);
+        textField3.setPrefWidth(150);
+        textField4.setPrefWidth(150);
+        textField5.setPrefWidth(150);
 
         Button calculator = new Button("Calculator");
+        BorderPane borderPane = new BorderPane();
+        borderPane.setRight(calculator);
 
         GridPane gridPane = new GridPane();
         gridPane.setHgap(5);
@@ -52,11 +55,13 @@ public class HelloApplication extends Application {
         gridPane.add(textField3, 1, 2);
         gridPane.add(textField4, 1, 3);
         gridPane.add(textField5, 1, 4);
+        gridPane.add(borderPane, 1, 5);
 
-        VBox vBox = new VBox(gridPane, calculator);
+        VBox vBox = new VBox(gridPane);
         vBox.setAlignment(Pos.CENTER);
         vBox.setSpacing(5);
-        Scene scene = new Scene(vBox, 350, 240);
+
+        Scene scene = new Scene(vBox, 300, 240);
         stage.setTitle("LoanCalculator");
         stage.setScene(scene);
         stage.show();

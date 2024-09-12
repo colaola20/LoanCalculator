@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Creating the text fields and adding them to the Grid Pane">
+    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Creating a button &quot;Calculator&quot;&#10;Creating the VBox and adding the Grid Pane and the button to into it">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726099486125</updated>
       <workItem from="1726099487140" duration="430000" />
-      <workItem from="1726101180546" duration="4640000" />
+      <workItem from="1726101180546" duration="5284000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane">
       <option name="closed" value="true" />
@@ -128,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726105159189</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating a button &quot;Calculator&quot;&#10;Creating the VBox and adding the Grid Pane and the button to into it">
+      <option name="closed" value="true" />
+      <created>1726109367302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726109367302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +159,7 @@
     <MESSAGE value="Set the title -&gt; LoanCalculator" />
     <MESSAGE value="Setting the Grid Pane to the CENTER" />
     <MESSAGE value="Creating the text fields and adding them to the Grid Pane" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the text fields and adding them to the Grid Pane" />
+    <MESSAGE value="Creating a button &quot;Calculator&quot;&#10;Creating the VBox and adding the Grid Pane and the button to into it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating a button &quot;Calculator&quot;&#10;Creating the VBox and adding the Grid Pane and the button to into it" />
   </component>
 </project>
