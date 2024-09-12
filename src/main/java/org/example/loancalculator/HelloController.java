@@ -56,17 +56,26 @@ public class HelloController {
     private VBox vBox;
 
     @FXML
+    /**
+     * onHelloButtonClick responsible for clicking the calculator  button
+     * reads the users data from the text  fields
+     * calculates Monthly Payment and Total Payment
+     * prints results in the text fields for the user
+     */
     void onHelloButtonClick(ActionEvent event) {
-        double annualInterestRate = Double.parseDouble(textField1.getText());
-        int numYears = Integer.parseInt(textField2.getText());
-        double loanAmount = Double.parseDouble(textField3.getText());
+        double annualInterestRate = Double.parseDouble(textField1.getText()); // reading the Annual Interest Rate from  the input and converts to double
+        int numYears = Integer.parseInt(textField2.getText()); //reading the Number of Years from  the input and converts to int
+        double loanAmount = Double.parseDouble(textField3.getText()); //reading the Loan Amount from  the input and converts to double
+
+        // calculations
         int numOfMonths = numYears*12;
         double monthlyInterestRate = annualInterestRate / 100 / 12;
         double monthlyPayment = (loanAmount * monthlyInterestRate * pow((1 + monthlyInterestRate), numOfMonths)) / (pow((1 + monthlyInterestRate), numOfMonths) - 1);
         double totalPayment = monthlyPayment * numOfMonths;
 
-        textField4.setText(String.format("%.2f", monthlyPayment));
-        textField5.setText(String.format("%.2f", totalPayment));
+        //prints calculations results for the user
+        textField4.setText(String.format("$%.2f", monthlyPayment));
+        textField5.setText(String.format("$%.2f", totalPayment));
     }
 
 }

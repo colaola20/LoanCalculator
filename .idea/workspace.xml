@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Adjusted the text in the text fields to the right side">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Rebuild project using the Scene builder and the FXMLLoader&#10;Made the calculator button rounded (set -fx-background-radius to 5 in Scene builder)">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/loancalculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/loancalculator/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
       <workItem from="1726166355850" duration="502000" />
       <workItem from="1726166880863" duration="3393000" />
       <workItem from="1726170334587" duration="146000" />
-      <workItem from="1726170552129" duration="488000" />
+      <workItem from="1726170552129" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane">
       <option name="closed" value="true" />
@@ -178,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726165881536</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rebuild project using the Scene builder and the FXMLLoader&#10;Made the calculator button rounded (set -fx-background-radius to 5 in Scene builder)">
+      <option name="closed" value="true" />
+      <created>1726171206808</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726171206808</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +211,8 @@
     <MESSAGE value="Started to work on the setOnAction section" />
     <MESSAGE value="Finishing the setOnAction part (reading data from the text fields, calculation, and printing monthly and total payment)" />
     <MESSAGE value="Adjusted the text in the text fields to the right side" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted the text in the text fields to the right side" />
+    <MESSAGE value="Rebuild project using the Scene builder and the FXMLLoader&#10;Made the calculator button rounded (set -fx-background-radius to 5 in Scene builder)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild project using the Scene builder and the FXMLLoader&#10;Made the calculator button rounded (set -fx-background-radius to 5 in Scene builder)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
