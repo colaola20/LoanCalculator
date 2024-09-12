@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane" />
+    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Set the title -&gt; LoanCalculator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726099486125</updated>
       <workItem from="1726099487140" duration="430000" />
-      <workItem from="1726101180546" duration="667000" />
+      <workItem from="1726101180546" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane">
       <option name="closed" value="true" />
@@ -90,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726101841468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set the title -&gt; LoanCalculator">
+      <option name="closed" value="true" />
+      <created>1726102030110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726102030110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane" />
+    <MESSAGE value="Set the title -&gt; LoanCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set the title -&gt; LoanCalculator" />
   </component>
 </project>
