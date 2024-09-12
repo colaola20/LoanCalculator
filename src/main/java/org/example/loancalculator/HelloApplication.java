@@ -39,6 +39,12 @@ public class HelloApplication extends Application {
         textField4.setPrefWidth(150);
         textField5.setPrefWidth(150);
 
+        textField1.setAlignment(Pos.CENTER_RIGHT);
+        textField2.setAlignment(Pos.CENTER_RIGHT);
+        textField3.setAlignment(Pos.CENTER_RIGHT);
+        textField4.setAlignment(Pos.CENTER_RIGHT);
+        textField5.setAlignment(Pos.CENTER_RIGHT);
+
         Button calculator = new Button("Calculator");
         calculator.setOnAction(event -> {
             double annualInterestRate = Double.parseDouble(textField1.getText());
