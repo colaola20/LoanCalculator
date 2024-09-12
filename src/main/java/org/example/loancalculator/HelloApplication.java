@@ -4,9 +4,11 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import javax.swing.*;
@@ -34,6 +36,8 @@ public class HelloApplication extends Application {
         textField4.setPrefWidth(200);
         textField5.setPrefWidth(200);
 
+        Button calculator = new Button("Calculator");
+
         GridPane gridPane = new GridPane();
         gridPane.setHgap(5);
         gridPane.setVgap(5);
@@ -49,8 +53,10 @@ public class HelloApplication extends Application {
         gridPane.add(textField4, 1, 3);
         gridPane.add(textField5, 1, 4);
 
-
-        Scene scene = new Scene(gridPane, 350, 240);
+        VBox vBox = new VBox(gridPane, calculator);
+        vBox.setAlignment(Pos.CENTER);
+        vBox.setSpacing(5);
+        Scene scene = new Scene(vBox, 350, 240);
         stage.setTitle("LoanCalculator");
         stage.setScene(scene);
         stage.show();
