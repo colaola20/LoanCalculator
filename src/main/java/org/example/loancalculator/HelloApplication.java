@@ -38,6 +38,11 @@ public class HelloApplication extends Application {
         textField5.setPrefWidth(150);
 
         Button calculator = new Button("Calculator");
+        calculator.setOnAction(event -> {
+            int annualInterestRate = Integer.parseInt(textField1.getText());
+            int numYears = Integer.parseInt(textField2.getText());
+            int loanAmount = Integer.parseInt(textField3.getText());
+        });
         BorderPane borderPane = new BorderPane();
         borderPane.setRight(calculator);
 
