@@ -10,6 +10,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 import javax.swing.*;
@@ -20,11 +22,12 @@ import static java.lang.Math.pow;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
         stage.setTitle("LoanCalculator");
 
         Label textLine1 = new Label("Annual Interest Rate:");
         Label textLine2 = new Label("Number of Years:");
-        Label textLine3 = new Label("Loan Amount");
+        Label textLine3 = new Label("Loan Amount:");
         Label textLine4 = new Label("Monthly Payment:");
         Label textLine5 = new Label("Total  Payment:");
 
@@ -46,18 +49,7 @@ public class HelloApplication extends Application {
         textField5.setAlignment(Pos.CENTER_RIGHT);
 
         Button calculator = new Button("Calculator");
-        calculator.setOnAction(event -> {
-            double annualInterestRate = Double.parseDouble(textField1.getText());
-            int numYears = Integer.parseInt(textField2.getText());
-            double loanAmount = Double.parseDouble(textField3.getText());
-            int numOfMonths = numYears*12;
-            double monthlyInterestRate = annualInterestRate / 100 / 12;
-            double monthlyPayment = (loanAmount * monthlyInterestRate * pow((1 + monthlyInterestRate), numOfMonths)) / (pow((1 + monthlyInterestRate), numOfMonths) - 1);
-            double totalPayment = monthlyPayment * numOfMonths;
 
-            textField4.setText(String.format("%.2f", monthlyPayment));
-            textField5.setText(String.format("%.2f", totalPayment));
-        });
         BorderPane borderPane = new BorderPane();
         borderPane.setRight(calculator);
 
@@ -81,7 +73,7 @@ public class HelloApplication extends Application {
         vBox.setAlignment(Pos.CENTER);
         vBox.setSpacing(5);
 
-        Scene scene = new Scene(vBox, 300, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 300, 240);
         stage.setTitle("LoanCalculator");
         stage.setScene(scene);
         stage.show();

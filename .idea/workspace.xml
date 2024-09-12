@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Finishing the setOnAction part (reading data from the text fields, calculation, and printing monthly and total payment)" />
+    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Adjusted the text in the text fields to the right side">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/loancalculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/loancalculator/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +57,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -94,7 +100,11 @@
       <workItem from="1726099487140" duration="430000" />
       <workItem from="1726101180546" duration="5517000" />
       <workItem from="1726110066851" duration="1284000" />
-      <workItem from="1726153739987" duration="2516000" />
+      <workItem from="1726153739987" duration="3053000" />
+      <workItem from="1726166355850" duration="502000" />
+      <workItem from="1726166880863" duration="3393000" />
+      <workItem from="1726170334587" duration="146000" />
+      <workItem from="1726170552129" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane">
       <option name="closed" value="true" />
@@ -160,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726165576259</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adjusted the text in the text fields to the right side">
+      <option name="closed" value="true" />
+      <created>1726165881536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726165881536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +204,11 @@
     <MESSAGE value="Creating a BorderPane and placing the button &quot;Calculator&quot; on right side of it&#10;Adding a BorderPane to the GridPane" />
     <MESSAGE value="Started to work on the setOnAction section" />
     <MESSAGE value="Finishing the setOnAction part (reading data from the text fields, calculation, and printing monthly and total payment)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing the setOnAction part (reading data from the text fields, calculation, and printing monthly and total payment)" />
+    <MESSAGE value="Adjusted the text in the text fields to the right side" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted the text in the text fields to the right side" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
