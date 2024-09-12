@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Creating a BorderPane and placing the button &quot;Calculator&quot; on right side of it&#10;Adding a BorderPane to the GridPane">
+    <list default="true" id="dbb76e92-f0dd-4492-899d-c534fc556e77" name="Changes" comment="Started to work on the setOnAction section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/loancalculator/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "colaola20"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;colaola20&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/colaola20/LoanCalculator.git",
-    "accountId": "ab627e27-d9a7-4d3b-b4f8-3252f743c128"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/colaola20/LoanCalculator.git&quot;,
+    &quot;accountId&quot;: &quot;ab627e27-d9a7-4d3b-b4f8-3252f743c128&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -95,6 +96,8 @@
       <updated>1726099486125</updated>
       <workItem from="1726099487140" duration="430000" />
       <workItem from="1726101180546" duration="5517000" />
+      <workItem from="1726110066851" duration="1284000" />
+      <workItem from="1726153739987" duration="1974000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the text labels&#10;Creating a GridPane and setting gaps&#10;Adding labels to the GridPane">
       <option name="closed" value="true" />
@@ -144,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726109909863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Started to work on the setOnAction section">
+      <option name="closed" value="true" />
+      <created>1726111541682</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726111541682</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +179,7 @@
     <MESSAGE value="Creating the text fields and adding them to the Grid Pane" />
     <MESSAGE value="Creating a button &quot;Calculator&quot;&#10;Creating the VBox and adding the Grid Pane and the button to into it" />
     <MESSAGE value="Creating a BorderPane and placing the button &quot;Calculator&quot; on right side of it&#10;Adding a BorderPane to the GridPane" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating a BorderPane and placing the button &quot;Calculator&quot; on right side of it&#10;Adding a BorderPane to the GridPane" />
+    <MESSAGE value="Started to work on the setOnAction section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started to work on the setOnAction section" />
   </component>
 </project>

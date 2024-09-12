@@ -15,6 +15,8 @@ import javafx.stage.Stage;
 import javax.swing.*;
 import java.io.IOException;
 
+import static java.lang.Math.pow;
+
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
@@ -39,9 +41,16 @@ public class HelloApplication extends Application {
 
         Button calculator = new Button("Calculator");
         calculator.setOnAction(event -> {
-            int annualInterestRate = Integer.parseInt(textField1.getText());
+            double annualInterestRate = Double.parseDouble(textField1.getText());
             int numYears = Integer.parseInt(textField2.getText());
-            int loanAmount = Integer.parseInt(textField3.getText());
+            double loanAmount = Double.parseDouble(textField3.getText());
+            int numOfMonths = numYears*12;
+            double monthlyInterestRate = annualInterestRate / 100 / 12;
+            double monthlyPayment = (loanAmount * monthlyInterestRate * pow((1 + monthlyInterestRate), numOfMonths)) / (pow((1 + monthlyInterestRate), numOfMonths) - 1);
+            double totalPayment = monthlyPayment * numOfMonths;
+
+            textField4.setText(String.format("%.2f", monthlyPayment));
+            textField5.setText(String.format("%.2f", totalPayment));
         });
         BorderPane borderPane = new BorderPane();
         borderPane.setRight(calculator);
